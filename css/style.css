@@ -24,7 +24,6 @@ body {
   left: 0;
   width: 100%;
   z-index: 4;
-  line-height: 12px;
 }
 .header-bolt {
   width: auto;
@@ -56,7 +55,6 @@ body {
 /* title */
 .title {
   width: 100%;
-  height: 140px;
   padding-top: 250px;
   padding-bottom: 250px;
 }
@@ -141,7 +139,7 @@ body {
   font-family: "Lato";
 }
 .article_btn {
-  float: right;
+  float: left;
   display: block;
   font-size: 12px;
   background-color: #74cfae;
