@@ -169,6 +169,10 @@ body {
   .section_do_img {
     margin: 0 auto;
   }
+  .section_do_box {
+    margin: 0 auto;
+    width: 90%
+  }
   .section_do_text {
     padding-bottom: 25px;
   }
@@ -207,7 +211,6 @@ body {
     float: left;
     margin: 0 90px;
     width: 58%;
-    font-size: 22px;
     line-height: 28px;
   }
   .article_btn {
@@ -233,7 +236,6 @@ body {
   .article_text {
     margin: 0 auto;
     width: 100%;
-    font-size: 18px;
     line-height: 25px;
   }
   .article_btn {
@@ -244,16 +246,6 @@ body {
   }
   .article_btn {
     margin-top: 40px;
-  }
-}
-@media screen and (min-width:768px) and (max-width:1199px) {
-  .article_text {
-    font-size: 18px;
-  }
-}
-@media screen and ( max-width:767px) {
-  .article_text {
-    font-size: 19px;
   }
 }
 .article {
@@ -282,6 +274,7 @@ body {
 .article_text {
   color: #4e4e4e;
   font-family: "Lato";
+  font-size: 20px;
 }
 .article_btn {
   padding: 14px 20px;
